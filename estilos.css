@@ -1,0 +1,90 @@
+/* Importamos una fuente parecida a la del diario original */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Centramos la noticia y le damos un ancho máximo para que parezca un artículo web */
+.contenedor-noticia {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos del título principal */
+.titulo-principal {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+/* Estilos de los datos del autor y fecha */
+.metadatos {
+    font-size: 0.85rem;
+    color: #777;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.metadatos a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Imagen fluida */
+.imagen-noticia {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Estilos de los subtítulos (H2) */
+.subtitulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    color: #222;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Estilos específicos para la lista de características */
+.lista-especificaciones {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.lista-especificaciones li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los links del final */
+.fuentes {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.fuentes a {
+    color: #0066cc;
+    text-decoration: none;
+}
